@@ -2,3 +2,93 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact */
+
+#contactme{
+    margin-top: 30px;
+  }
+  
+  #contactme ul{
+    padding: 0;
+  }
+  
+  #contactme li{
+    float: left;
+    width: 48%;
+    margin: 1%;
+    list-style-type: none; 
+  }
+  
+  #contactme li img{
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  
+  #contactme li span {
+  line-height: 1.8;
+  font-size: 1.1em;
+  }
+  
+  #contactme ul:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .contact-form input {
+  
+  width: 50%;
+  height: 2.3em;
+  text-align: center;
+  border-color: orange;
+  outline: none;
+  color: black;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  }
+  
+  textarea {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+  height: 2.3em;
+  text-align: center;
+  border-color: orange;
+  outline: none;
+  color: black;
+  font-size: 1em;
+  padding-top: 0.5em;
+  }
+  
+  .contact-form button {
+  width: 50.5%;
+  height: 2.3em;
+  text-align: center;
+  border-color: orange;
+  outline: none;
+  color: black;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  background-color: white;
+  }
+  
+  .contact-form button:hover {
+    text-decoration: underline;
+    border-color: black;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+  }
